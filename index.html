@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-API</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container"> 
+        <div><h1>Weather Api</h5></div>
+        <div class="fetching"><button>Fetch Data</button></div>
+    </div>
+    <div id="data-container" class="weather-body">
+        <div><p>Weather Api</p></div>
+        <div class ="input-field">
+            <div class="labell">Lat:</div>
+            <div class="labell">Long:</div>
+        </div>
+        <div id="map1">
+            <iframe id="map" src="" frameborder="0" width="100%" height="600px" scrolling="no" marginheight="0" marginwidth="0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="result">
+            <h3>Weather Data</h3>
+            <!-- <p class="comment">Here is your Location</p> -->
+            <div class="data">
+                <div class="label" id="location">Location:</div>
+                <div class="label" id="time-zone">TimeZone: </div>
+                <div class="label" id="windSpeed">Wind Speed: </div>
+                <div class="label" id="pressure">Pressure: </div>
+                <div  class="label" id="humidity">Humidity: </div>
+                <div class="label" id="WinDirection">Wind Direction:</div>
+                <div class="label" id="UV">UV Index: </div> 
+                <div  class="label" id="feels">Feels Like: </div>
+            </div>
+        </div>
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>

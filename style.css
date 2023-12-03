@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Inter:wght@700&family=Libre+Baskerville:wght@700&family=Mukta:wght@200&family=Oswald:wght@700&family=Poppins:wght@600&family=Roboto+Mono&family=Rubik:wght@300&family=Space+Grotesk:wght@700&family=Titillium+Web&family=Ubuntu:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fetching{
+    width: 492px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: white;
+}
+button{
+    background-color: white;
+    color: black;
+    border: none;
+    width: 331px;
+    height: 33px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+h1{
+    margin-top: 100px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 4px;
+}
+
+#data-container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    text-align: center;
+    width: 100%;
+    
+}
+
+p{
+    margin-top: 25px;  
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+}
+.input-field{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+    display: flex;
+    justify-content:space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    word-spacing:20;
+}
+.input-field .labell{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 30px;
+    width: 400px;
+    text-align: start;
+    padding-left: 20px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: rgb(32, 33, 94);
+    letter-spacing: 4px;
+}
+.comment{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-size: small;
+}
+#map1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 400px;
+    background-color:black
+    
+}
+iframe{
+    display: flex;
+    width: 100%;
+}
+#result{
+    color: black;
+    background-color: white;
+    padding: 20px;
+}
+h3{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    text-align: start;
+    margin: 50px;
+}
+.data {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #ffff;
+    font-size: 20px;
+    background-color: rgb(32, 33, 94);
+    border-radius: 5px;
+}
+
+.label-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f0f0f0;
+}

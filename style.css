@@ -147,3 +147,52 @@ h3{
     padding: 10px;
     background-color: #f0f0f0;
 }
+
+
+/* Mobile devices (up to 767px) */
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .container {
+        /* Add responsive styles for container on smaller screens */
+        
+    }
+    h1{
+
+        font-size:25px;
+    }
+    .fetching{
+        width: 250px;
+        height: 58px;        
+    }
+    p{
+        margin-top: 25px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 30px;
+    }
+
+    .input-field .labell {
+        font-size: 15px;
+        width: 110px;
+
+    }
+    /* Adjust other styles as needed for smaller screens */
+}
+
+/* Tablets and small desktops (768px - 1023px) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Add styles for tablets and small desktops */
+    .input-field .labell {
+        font-size: 15px;
+        width: 300px; 
+    }
+
+}
+/* Desktops and larger screens (1024px and above) */
+@media screen and (min-width: 1024px) {
+    /* Add styles for larger screens */
+}

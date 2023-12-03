@@ -88,7 +88,7 @@ function showData(Dataweather){
         </iframe>
     </div>
   <div id="result">
-      <h3>Weather Data</h3>
+    <div><p style="margin-bottom:20px;">Weather Data</p></div>
       
       <div class="data">
           <div class="label" id="location">
